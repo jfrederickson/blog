@@ -5,7 +5,7 @@
              (haunt reader commonmark)
              (haunt site))
 
-(site #:title "jfred's world"
+(site #:title "Terracrypt Blog"
       #:domain "blog.terracrypt.net"
       #:default-metadata
       '((author . "Jonathan Frederickson")
