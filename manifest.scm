@@ -12,4 +12,4 @@
  (map (compose list specification->package+output)
       '("haunt"
         "guile"
-        "hut")))
+        "glibc-locales")))
