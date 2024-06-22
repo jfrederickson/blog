@@ -18,6 +18,8 @@
                        (href "/feed.xml")))
               ,(stylesheet "jfred"))
              (body
-              (p "Test header")
-              ,body
-              (p "Test footer"))))))
+              (div (@ (class "container"))
+                   (div (@ (class "nav"))
+                        (ul
+                         (li ,(link "jfred" "/"))))
+                   ,body))))))

@@ -19,3 +19,6 @@
 (define-public (stylesheet name)
   `(link (@ (rel "stylesheet")
             (href ,(string-append "/css/" name ".css")))))
+
+(define-public (link name uri)
+  `(a (@ (href ,uri)) ,name))
