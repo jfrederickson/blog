@@ -1,6 +1,6 @@
 body {
-    background-color: #fefdda;
-    color: #22494f;
+    background-color: #fdfaec;
+    color: #60435f;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     line-height: 1.6;
     font-size: 18px;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #22494f;
+    color: #60435f;
 }
 
 code {
@@ -24,7 +24,15 @@ code {
     font-size: 36px;
 }
 
+a:link {
+    color: #71816d;
+}
+
+a:visited {
+    color: #60435f;
+}
+
 .nav a {
     text-decoration: none;
-    color: #22494f;
+    color: #60435f;
 }
